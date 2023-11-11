@@ -86,23 +86,3 @@ p {
     text-align: center;
   }
 }
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
-  text-decoration: none;
-}
-.about.me {
-  background-color: var(--secondary-color);
-  text-align: center;
-  padding: 160px 20px;
-}
-
-h3 {
-  font-size: 24px;
-  opacity: 0.7;
-}
-.text-center {
-  padding: 100px 0 0 0;
-}
