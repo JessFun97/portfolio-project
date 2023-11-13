@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: #ff63e0;
   --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -85,6 +85,36 @@ p {
   padding: 15px 30px;
 }
 
+.logo {
+  max-width: 80px;
+}
+
+nav {
+  padding: 20px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 110ms ease-in-out;
+}
+a:hover,
+.active li {
+  color: var(--branding-color);
+}
+
 .project-description {
   padding: 20px 50px;
 }
@@ -107,5 +137,8 @@ p {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  a {
+    font-size: 14px;
   }
 }
