@@ -160,6 +160,9 @@ footer {
   background: var(--branding-color);
   transition: all 100ms ease-in-out;
 }
+.project-link {
+  text-decoration: underline;
+}
 
 @media (max-width: 900px) {
   h1 {
