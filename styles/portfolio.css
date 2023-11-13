@@ -24,6 +24,9 @@ h1 {
 h2 {
   font-size: 64px;
 }
+h4 {
+  font-size: 48px;
+}
 p {
   font-weight: normal;
   font-size: 16px;
@@ -108,7 +111,7 @@ li {
 a {
   text-decoration: none;
   color: #272142;
-  transition: all 110ms ease-in-out;
+  transition: all 100ms ease-in-out;
 }
 a:hover,
 .active li {
@@ -119,6 +122,45 @@ a:hover,
   padding: 20px 50px;
 }
 
+footer {
+  margin: 60px 0;
+}
+
+.contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+.contact-box p {
+  margin: 0;
+}
+
+.email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+.email-link:hover {
+  color: var(--branding-color);
+}
+
+.social-links span {
+  margin: 0 30px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 45%;
+  font-size: 18px;
+}
+
+.social-links span:hover {
+  color: white;
+  background: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 45px;
@@ -126,6 +168,9 @@ a:hover,
   }
   h2 {
     font-size: 45px;
+  }
+  h4 {
+    font-size: 24px;
   }
   .hero {
     padding: 80px 20px;
@@ -138,6 +183,11 @@ a:hover,
     padding: 0;
     text-align: center;
   }
+
+  .contact-box {
+    padding: 30px;
+  }
+
   a {
     font-size: 14px;
   }
